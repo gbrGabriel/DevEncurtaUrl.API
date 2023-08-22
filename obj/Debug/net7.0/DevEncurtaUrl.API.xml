@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevEncurtaUrl.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevEncurtaUrl.API.Controllers.ShortenedLinksController.Post(DevEncurtaUrl.API.Models.AddOrUpdateShortenedLinkModel)">
+            <summary>
+            Cadastrar um link encurtado
+            </summary>
+            <remarks>
+            {"title": "ultimo-artigo", "destinationLink":"https://github.com/gbrGabriel/DevEncurtaUrl.API"}
+            </remarks>
+            <param name="model">Dados do link</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Sucesso</response>
+        </member>
+        <member name="T:DevEncurtaUrl.API.Persistence.Migrations.FirstMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:DevEncurtaUrl.API.Persistence.Migrations.FirstMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DevEncurtaUrl.API.Persistence.Migrations.FirstMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DevEncurtaUrl.API.Persistence.Migrations.FirstMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
